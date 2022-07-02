@@ -29,11 +29,11 @@ stages:
         make install
       workingDirectory: $(projectRoot)
       displayName: 'Install Dependencies'
-    - script: |
-        source ./.env/bin/activate
-        make lint
-      workingDirectory: $(projectRoot)
-      displayName: 'Run lint tests'
+#     - script: |
+#         source ./.env/bin/activate
+#         make lint
+#       workingDirectory: $(projectRoot)
+#       displayName: 'Run lint tests'
 #     - script: |
 #         make test
 #       workingDirectory: $(projectRoot)

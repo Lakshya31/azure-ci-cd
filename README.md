@@ -2,27 +2,13 @@
 
 This is a Machine Learning Project exposed using a flask API which is Integrated with Azure Pipelines for Continuous Integration & Continuous Deployment.
 
+[![Python application test with Github Actions](https://github.com/Lakshya31/azure-ci-cd/actions/workflows/main.yml/badge.svg)](https://github.com/Lakshya31/azure-ci-cd/actions/workflows/main.yml)
+
 ## Project Plan
 
 Trello Board: https://trello.com/b/iwDsz8qC/lakshya-agile-planning
 
 Excel Plan: [Click Here](./Documentation/Lakshya_Project_Plan.xlsx)
-
-Plan Excel with 4 hours of estimated work per day (printed as space formatted text)
-
-Start Date	            Task	                               Estimated Hours
-01 July 2022	Make a Project Plan	                                0.5
-01 July 2022	Make a Trello Board	                                0.5
-01 July 2022	Set Up Azure Cloud Shell & clone new repo	        1
-01 July 2022	Configure GitHub Actions	                        1
-01 July 2022	Set Up Azure DevOps                             	0.5
-01 July 2022	Integrate new Repo with Pipelines	                0.5
-02 July 2022	Manually Deploy Starter Code to Web App & test	    1
-02 July 2022	Create Azure Service Connection	                    0.5
-02 July 2022	Set Up Agent Pool & Linux VM Agent	                1
-02 July 2022	Create a Pipeline	                                1
-02 July 2022	Documentation	                                    1.5
-
 
 Planned Date of Submission: 3 July 2022
 
@@ -30,7 +16,7 @@ Planned Date of Submission: 3 July 2022
 
 * Architectural Diagram
 
-image.png
+![image](https://user-images.githubusercontent.com/47375693/177016401-04ba9dab-d012-48cd-9400-e52a8b2bb93c.png)
 
 * Running the Project:
 - Install Python 3.7 & install basic dependencies (pip, pyvenv, pylint, pytest)
@@ -46,27 +32,27 @@ image.png
 
 To deploy the project on azure App service, trigger pipeline manually if you are root user, else just push a commit to the remore repository (main branch).
 
-[image](./Documentation/screenshots/App%20running%20on%20Azure%20Service.PNG)
+![image](./Documentation/screenshots/App%20running%20on%20Azure%20Service.PNG)
 
 * Project cloned into Azure Cloud Shell
 
-[image](./Documentation/screenshots/git%20clone%20in%20azure%20shell.PNG)
+![image](./Documentation/screenshots/git%20clone%20in%20azure%20shell.PNG)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
-[image](./Documentation/screenshots/make%20all%20%231.PNG)
+![image](./Documentation/screenshots/make%20all%20%231.PNG)
 
-[image](./Documentation/screenshots/make%20all%20%232.PNG)
+![image](./Documentation/screenshots/make%20all%20%232.PNG)
 
 * Output of a test run
 
-[image](./Documentation/screenshots/make%20test.PNG)
+![image](./Documentation/screenshots/make%20test.PNG)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-[image](./Documentation/screenshots/Azure%20pipeline%20success.PNG)
+![image](./Documentation/screenshots/Azure%20pipeline%20success.PNG)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
@@ -77,11 +63,11 @@ Port: 443
 {"prediction":[20.35373177134412]}
 ```
 
-[image](./Documentation/screenshots/Predict.PNG)
+![image](./Documentation/screenshots/Predict.PNG)
 
 * Output of streamed log files from deployed application
 
-[image](./Documentation/screenshots/Log%20Stream.PNG)
+![image](./Documentation/screenshots/Log%20Stream.PNG)
 
 ## Enhancements
 

@@ -19,9 +19,16 @@ stages:
     steps:    
     - script: |
         make install
+      workingDirectory: $(projectRoot)
+      displayName: 'Install Dependencies'
+    - script: |
         make lint
       workingDirectory: $(projectRoot)
       displayName: 'Run lint tests'
+#     - script: |
+#         make test
+#       workingDirectory: $(projectRoot)
+#       displayName: 'Run tests'
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:

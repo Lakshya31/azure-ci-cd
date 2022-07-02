@@ -8,22 +8,6 @@ Trello Board: https://trello.com/b/iwDsz8qC/lakshya-agile-planning
 
 Excel Plan: [Click Here](./Documentation/Lakshya_Project_Plan.xlsx)
 
-Plan Excel with 4 hours of estimated work per day (printed as space formatted text)
-
-Start Date	            Task	                               Estimated Hours
-01 July 2022	Make a Project Plan	                                0.5
-01 July 2022	Make a Trello Board	                                0.5
-01 July 2022	Set Up Azure Cloud Shell & clone new repo	        1
-01 July 2022	Configure GitHub Actions	                        1
-01 July 2022	Set Up Azure DevOps                             	0.5
-01 July 2022	Integrate new Repo with Pipelines	                0.5
-02 July 2022	Manually Deploy Starter Code to Web App & test	    1
-02 July 2022	Create Azure Service Connection	                    0.5
-02 July 2022	Set Up Agent Pool & Linux VM Agent	                1
-02 July 2022	Create a Pipeline	                                1
-02 July 2022	Documentation	                                    1.5
-
-
 Planned Date of Submission: 3 July 2022
 
 ## Instructions

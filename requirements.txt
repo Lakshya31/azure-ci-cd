@@ -1,5 +1,7 @@
+Cython
 Flask==2.0.3
 pandas==0.24.2
 scikit-learn==0.20.3
 Jinja2==3.1.1
 MarkupSafe==2.1.1
+gunicorn

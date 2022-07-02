@@ -18,6 +18,11 @@ stages:
     pool: myAgentPool
     steps:    
     - script: |
+        python3.7 -m venv "$(System.DefaultWorkingDirectory)/.env"
+        source ./.env/bin/activate
+      workingDirectory: $(projectRoot)
+      displayName: 'Create Virtual Env'
+    - script: |
         make install
       workingDirectory: $(projectRoot)
       displayName: 'Install Dependencies'

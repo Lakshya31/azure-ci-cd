@@ -2,6 +2,8 @@
 
 This is a Machine Learning Project exposed using a flask API which is Integrated with Azure Pipelines for Continuous Integration & Continuous Deployment.
 
+[![Python application test with Github Actions](https://github.com/Lakshya31/azure-ci-cd/actions/workflows/main.yml/badge.svg)](https://github.com/Lakshya31/azure-ci-cd/actions/workflows/main.yml)
+
 ## Project Plan
 
 Trello Board: https://trello.com/b/iwDsz8qC/lakshya-agile-planning

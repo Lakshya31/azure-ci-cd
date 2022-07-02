@@ -73,4 +73,4 @@ stages:
               resourceGroupName: 'Azuredevops'
               slotName: 'production'
               runtimeStack: 'PYTHON|3.7'
-              startUpCommand: 'python3.7 -m flask run'
+              startUpCommand: 'python3.7 -m gunicorn --bind=0.0.0.0 --workers=4 app:app'

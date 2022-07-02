@@ -1,8 +1,6 @@
 # Overview
 
-This is a Machine Learning Project Integrated with Azure Pipelines for Continuous Integration & Continuous Deployment.
-
-
+This is a Machine Learning Project exposed using a flask API which is Integrated with Azure Pipelines for Continuous Integration & Continuous Deployment.
 
 ## Project Plan
 
@@ -48,27 +46,27 @@ image.png
 
 To deploy the project on azure App service, trigger pipeline manually if you are root user, else just push a commit to the remore repository (main branch).
 
-App running on Azure Service.PNG
+[image](./Documentation/screenshots/App%20running%20on%20Azure%20Service.PNG)
 
 * Project cloned into Azure Cloud Shell
 
-git clone in azure shell.PNG
+[image](./Documentation/screenshots/git%20clone%20in%20azure%20shell.PNG)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
-make all #1.PNG
+[image](./Documentation/screenshots/make%20all%20%231.PNG)
 
-make all #2.PNG
+[image](./Documentation/screenshots/make%20all%20%232.PNG)
 
 * Output of a test run
 
-make test.PNG
+[image](./Documentation/screenshots/make%20test.PNG)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-Azure pipeline success.PNG
+[image](./Documentation/screenshots/Azure%20pipeline%20success.PNG)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
@@ -79,11 +77,11 @@ Port: 443
 {"prediction":[20.35373177134412]}
 ```
 
-image.png
+[image](./Documentation/screenshots/Predict.PNG)
 
 * Output of streamed log files from deployed application
 
-Log Stream.PNG
+[image](./Documentation/screenshots/Log%20Stream.PNG)
 
 ## Enhancements
 

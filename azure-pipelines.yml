@@ -73,4 +73,4 @@ stages:
               resourceGroupName: 'Azuredevops'
               slotName: 'production'
               runtimeStack: 'PYTHON|3.7'
-              startUpCommand: 'python app.py'
+              startUpCommand: 'python3.7 -m flask run'

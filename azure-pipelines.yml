@@ -16,14 +16,7 @@ stages:
   jobs:
   - job: BuildJob
     pool: myAgentPool
-    steps:    
-#     - script: |
-#         python3.7 -m venv "$(System.DefaultWorkingDirectory)/.env"
-#         source ./.env/bin/activate
-#         which python
-#         pip --version
-#       workingDirectory: $(projectRoot)
-#       displayName: 'Create Virtual Env'
+    steps:
     - script: |
         make install
       workingDirectory: $(projectRoot)
@@ -33,6 +26,7 @@ stages:
         make lint
       workingDirectory: $(projectRoot)
       displayName: 'Run lint tests'
+# TODO: Design Tests and add in pipeline
 #     - script: |
 #         make test
 #       workingDirectory: $(projectRoot)

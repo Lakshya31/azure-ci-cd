@@ -48,6 +48,10 @@ To deploy the project on azure App service, trigger pipeline manually if you are
 
 ![image](./Documentation/screenshots/make%20test.PNG)
 
+* Output of Load test run
+
+![image](./Documentation/screenshots/Load%20Test.PNG)
+
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Running Azure App Service from Azure Pipelines automatic deployment
